@@ -68,11 +68,9 @@ def lambda_handler(event, context):
 
 1. AWSLambdaBasicExecutionRole.
 Create custom inline role using visualEditor:
-
 2. cost-optimization-ebs:
 i. ec2-DeleteSnapshot
 ii. ec2-DescribeSnapshots
-
 3. ec2-permissions:
 i. ec2:DescribeInstances
 ii. ec2:DescribeVolumes
