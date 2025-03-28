@@ -67,16 +67,16 @@ def lambda_handler(event, context):
 ## IAM role policies and permission (required):
 1. AWSLambdaBasicExecutionRole:
 
-Create custom inline role using visual Editor.
+	Create custom inline role using visual Editor.
 
 2. cost-optimization-ebs:
 
-i. ec2-DeleteSnapshot.
+	i. ec2-DeleteSnapshot.
 
-ii. ec2-DescribeSnapshots.
+	ii. ec2-DescribeSnapshots.
 
 3. ec2-permissions:
 
-i. ec2:DescribeInstances.
+	i. ec2:DescribeInstances.
 
-ii. ec2:DescribeVolumes.
+	ii. ec2:DescribeVolumes.
