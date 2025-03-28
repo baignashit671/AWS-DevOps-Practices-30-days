@@ -65,7 +65,6 @@ def lambda_handler(event, context):
 					
 
 ## IAM role policies and permission (required):
-
 1. AWSLambdaBasicExecutionRole:
 
 Create custom inline role using visual Editor.
